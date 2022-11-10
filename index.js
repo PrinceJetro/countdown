@@ -3,7 +3,7 @@ const hoursel =document.getElementById("hours");
 const minsel =document.getElementById("mins");
 const secondsel= document.getElementById("seconds");
 
-const blackpanther = "12 Nov 2022";
+const blackpanther = "11 Nov 2022";
 
 function countDown(){
     const blackpantherDate =new Date(blackpanther);
@@ -12,7 +12,7 @@ function countDown(){
     const totalSeconds= (blackpantherDate - currentDate) /1000;
 
     const days = Math.floor(totalSeconds/3600/24)
-    const hours = Math.floor(totalSeconds/3600/24) % 24;
+    const hours = Math.floor(totalSeconds/3600) % 24;
     const mins =Math.floor(totalSeconds/60) %60;
     const seconds = Math.floor(totalSeconds)% 60;
 
