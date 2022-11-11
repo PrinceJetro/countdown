@@ -2,7 +2,7 @@
     box-sizing :border-box
 }
 body{
-    background-image: url("wedding.webp");
+    background-image: url("antman.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position:top ;
@@ -13,7 +13,7 @@ body{
     justify-content:center ;
     min-height: 100vh;
     margin:0;
-    color:black
+    color:aliceblue
       
 }
 #container{
