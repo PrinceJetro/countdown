@@ -3,7 +3,7 @@ const hoursel =document.getElementById("hours");
 const minsel =document.getElementById("mins");
 const secondsel= document.getElementById("seconds");
 
-const blackpanther = "10 Nov 2023";
+const blackpanther = "26 Mar 2024";
 
 function countDown(){
     const blackpantherDate =new Date(blackpanther);

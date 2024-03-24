@@ -2,7 +2,7 @@
     box-sizing :border-box
 }
 body{
-    background-image: url("https://sm.ign.com/ign_nordic/gallery/m/marvel-stu/marvel-studios-the-marvels-trailer-stills_hp24.jpg");
+    background-image: url("./avatar.png");
     background-attachment: fixed;
     background-size: cover;
     background-position:top ;
